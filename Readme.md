@@ -10,9 +10,7 @@
 
 Data Engineering에서 활용되는 Data Pipeline에서 
 
-### Pipeline 예시들
-# Pipeline
-
+## Pipeline 예시들
 ### 실시간 스트리밍 파이프라인
 
 상황 : 실시간 데이터 스트리밍과 분석이 필요한 상황.
