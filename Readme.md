@@ -50,8 +50,10 @@ NiFi(데이터 수집) -> Beam(데이터 처리) -> Google BigQuery, Apache Drui
 ### MLOps 파이프라인
 ***상황***  
 머신러닝 모델의 전체 생애주기를 관리하려는 상황.  
+
 ***중요한 점***  
 모델 학습 및 배포 자동화, 모델 버전 관리, 모델 모니터링 및 재학습이 필요합니다.  
+
 ***기술 도구***  
 Hadoop HDFS(데이터 수집&저장) -> PyTorch, TensorFlow(데이터 처리) -> Kubeflow, MLflow(모델 학습) -> Docker(배포)
 
@@ -63,12 +65,16 @@ Hadoop HDFS(데이터 수집&저장) -> PyTorch, TensorFlow(데이터 처리) ->
 ***중요한 점***  
 실시간 처리, 데이터의 실시간 유입을 처리할 수 있는 유연성, 실시간 분석 및 대시보드 지원 필요  
 
-기술 도구: 데이터 수집에는 Apache Kafka나 RabbitMQ를 사용하고, 데이터 처리에는 Apache Flink, Storm, Spark Streaming을 이용합니다. 처리된 데이터는 Elasticsearch, Cassandra 등에 저장합니다.
+***기술 도구***  
+Kafka, RabbitMQ(데이터 수집) -> Flink, Storm, Spark Streaming(데이터 처리) -> ElasticSearch, Cassandra(데이터 저장)
+
 
 ### 데이터 레이크 파이프라인
+***상황***  
+다양한 형식의 데이터를 원시 형태로 저장하고, 필요에 따라 유연하게 조회하려는 상황
 
-상황 : 다양한 형식의 데이터를 원시 형태로 저장하고, 필요에 따라 유연하게 조회하려는 상황
+***중요한 점***  
+다양한 형식의 데이터 저장, 데이터의 원시 형태 유지, 유연한 데이터 조회 필요
 
-중요한 점: 다양한 형식의 데이터 저장, 데이터의 원시 형태 유지, 유연한 데이터 조회가 필요합니다.
-
-기술 도구: 데이터 수집에는 Apache NiFi나 Logstash를 사용하며, 데이터 저장에는 Hadoop HDFS나 Amazon S3를 사용합니다. 데이터 조회에는 Apache Hive나 Presto를 이용합니다.
+***기술 도구***
+NiFi, Logstash(데이터 수집) -> Hadoop HDFS, AWS S3(데이터 저장) -> Hive, Presto(데이터 조회)
