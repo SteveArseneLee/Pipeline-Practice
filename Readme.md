@@ -2,11 +2,21 @@
 
 어떤 기술스택이 어떤 상황에서 쓰이는지부터 분석합니다.
 
-1. Data Collection
-2. Data Storage
-3. Data Processing
-4. Data Analysis
-5. Data Monitoring and Feedback
+1. **Data Collection**
+    - 기술 및 도구: Apache Kafka, Fluentd, Logstash, Beats, Scrapy, Beautiful Soup 등
+    - 학습 방법: 공식 문서를 통해 기본 사용법을 익히고, 간단한 데이터 수집 프로젝트를 직접 수행해 보세요.
+2. **Data Storage**
+    - 기술 및 도구: MySQL, PostgreSQL, MongoDB, Apache Cassandra, Hadoop HDFS, Apache Parquet 등
+    - 학습 방법: 각 데이터베이스의 특성과 사용법을 공식 문서로 학습하고, 실제 데이터를 저장하고 조회하는 실습을 진행해 보세요.
+3. **Data Processing**
+    - 기술 및 도구: Apache Hadoop, Apache Spark, Apache Flink, Apache Beam 등
+    - 학습 방법: 공식 문서와 튜토리얼을 통해 기본 개념과 API를 익히고, 대용량 데이터 처리를 위한 실제 프로젝트를 수행해 보세요.
+4. **Data Analysis**
+    - 기술 및 도구: Python(pandas, numpy), R, Apache Hive, Apache Pig, Apache Zeppelin 등
+    - 학습 방법: 기본 문법과 라이브러리 사용법을 익히고, 실제 데이터셋을 가지고 분석하는 프로젝트를 진행해 보세요.
+5. **Data Monitoring and Feedback**
+    - 기술 및 도구: Grafana, Kibana, Prometheus, Apache Superset 등
+    - 학습 방법: 각 도구의 설치 및 설정 방법을 공식 문서를 통해 학습하고, 실시간 모니터링 대시보드를 구축해 보세요.
 
 Data Engineering에서 활용되는 Data Pipeline에서 
 
