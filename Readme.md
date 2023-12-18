@@ -86,5 +86,5 @@ Kafka, RabbitMQ(데이터 수집) -> Flink, Storm, Spark Streaming(데이터 처
 ***중요한 점***  
 다양한 형식의 데이터 저장, 데이터의 원시 형태 유지, 유연한 데이터 조회 필요
 
-***기술 도구***
+***기술 도구***  
 NiFi, Logstash(데이터 수집) -> Hadoop HDFS, AWS S3(데이터 저장) -> Hive, Presto(데이터 조회)
