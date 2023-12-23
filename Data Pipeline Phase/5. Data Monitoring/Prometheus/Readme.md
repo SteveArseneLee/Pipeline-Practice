@@ -1,2 +1,2 @@
 # Prometheus
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1b9dfe6c-833d-45ce-99b3-edde142aee9b/44bb6e35-d300-4b2d-9683-d2453b306d49/Untitled.png)
+![Untitled](https://yoonsung.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F44bb6e35-d300-4b2d-9683-d2453b306d49%2FUntitled.png?table=block&id=948b719f-bd6b-405f-b2b4-5292010728ae&spaceId=5d897442-979a-4711-9adc-3bdaa80aace1&width=2000&userId=&cache=v2)
