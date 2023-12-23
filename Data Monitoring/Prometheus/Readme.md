@@ -19,3 +19,20 @@
     - 이벤트 데이터를 분석
         - filter -> aggregation -> metric
         - 텍스트 검색, 필터 검색
+
+### 대표적인 Observability 도구들
+1. Opentelemetry  
+오픈소스로 만들어지는 통합 observability 스택.
+- Tracing, Metric, Log를 수집해서 통합된 모니터링, 분석 환경을 제공함.
+- 여러 언어별로 instrument sdk를 제공하고 여러 인프라 환경별로 collector도 개발되어 있음
+- 전용 OpenTelemetry Protocol(OTLP)를 정의해놓아 직접 agent, collector를 구현할 수 있음.
+2. Datadog
+Cloud에서 운영되는 Observability 제품
+- AWS, Azure, GCP등에 쉽게 integration할 수 있음
+- 각 언어나 플랫폼 별로 데이터 수집을 위한 agent들도 제공하고 설치도 쉬움.
+- 웹, 앱부터 백엔드까지 통합해서 모니터링하고 병목이나 장애지점을 진단할 수 있는 것이 큰 장점
+3. Dynatrace
+오래전부터 APM분야를 시작한 회사
+- Java Tracing 도구들의 기능이 더 상세하고 성능이 좋은 편
+- Datadog과 마찬가지로 Full stack observability를 제공하거나 제공하려고 함
+- Cloud와 On-premise도 부분적 제공
